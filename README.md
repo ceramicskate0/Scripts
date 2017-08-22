@@ -1,6 +1,6 @@
 # Scripts
 
-Collection of random scripts
+Collection of random scripts to do tasks for me that have come up over time. For example run sysinterns autorun remotely on an endpoint and output to csv or execute process on remote machine using WMI to do some task.
 
 # Legalish Disclaimer:
 
