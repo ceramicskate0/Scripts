@@ -2,7 +2,7 @@
 #
 cls
 echo  --------------------------------------
-echo  {     Remote Investigation  Script   }
+echo  {     Remote AutoRun COllection  Script   }
 echo  --------------------------------------
 echo  -------------Step1--------------------
 echo Collecting system date time info...
