@@ -23,9 +23,9 @@ set /p AdminAcctJustname=Enter either Domain\AccountName or just Account name if
 set /p AdmiNPWD=Enter above accounts Password:
 
 #Set Where things are here
-set CollectorDir={Where to go on local machine to get AutoRuns.exe}
+set /p CollectorDir=Enter location on your machine where autoruns.exe is located:
+set /p SendOutFileToLocation=Enter where to put the csv ouput from autorun on your machine:
 set AutoRunWorkingDir=\\%IP%\c$\AutoRunCollector
-set SendOutFileToLocation={LOCAL STORAGE FILE PATH}
 set HostAnalysisLoc=C:\AutoRunCollector
 
 
