@@ -8,6 +8,7 @@ print"|1. Start Nginx                                                   |"
 print"|2. Start Apache                                                  |"
 print"|3. Start Python                                                  |"
 print"|_________________________________________________________________|"
+
 gateway= raw_input("\nPlease the number of what you want to do:")
 		if gateway=="1":
 			os.system("service nginx start")
