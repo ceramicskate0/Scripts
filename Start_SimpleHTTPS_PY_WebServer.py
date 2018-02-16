@@ -10,7 +10,7 @@ import BaseHTTPServer, SimpleHTTPServer
 import ssl
 import os
 
-os.system(openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes)
+os.system(Openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes)
 httpd = BaseHTTPServer.HTTPServer(('localhost', 4443), SimpleHTTPServer.SimpleHTTPRequestHandler)
 httpd.socket = ssl.wrap_socket (httpd.socket, certfile='./server.pem', server_side=True)
 httpd.serve_forever()
