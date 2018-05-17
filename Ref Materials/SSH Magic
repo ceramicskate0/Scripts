@@ -1,0 +1,1 @@
+ssh useraccount@ExternalIP -L LOCAL(APPEARED):InternalIP:remoteportNum(Same as 1st)
