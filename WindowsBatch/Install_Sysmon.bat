@@ -15,7 +15,7 @@ set tasktime=%hour%:%minute%
 mkdir C:\ProgramData\sysmon
 pushd "C:\ProgramData\sysmon\"
 echo [+] Downloading Sysmon...
-@powershell (new-object System.Net.WebClient).DownloadFile('https://live.sysinternals.com/Sysmon64.exe','C:\ProgramData\sysmon\sysmon64.exe')"
+@powershell (new-object System.Net.WebClient).DownloadFile('https://live.sysinternals.com/Sysmon.exe','C:\ProgramData\sysmon\sysmon.exe')"
 echo [+] Downloading Sysmon config...
 @powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/ceramicskate0/sysmon-config/master/sysmonconfig-export.xml','C:\ProgramData\sysmon\sysmonconfig-export.xml')"
 @powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/ion-storm/sysmon-config/develop/Auto_Update.bat','C:\ProgramData\sysmon\Auto_Update.bat')"
