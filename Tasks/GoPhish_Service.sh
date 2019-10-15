@@ -11,7 +11,7 @@
 
 processName=Gophish
 process=gophish
-appDirectory=/opt/goapps/src/github.com/gophish/gophish
+appDirectory=/etc/gophish
 logfile=/var/log/gophish/gophish.log
 errfile=/var/log/gophish/gophish.error
 
