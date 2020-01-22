@@ -15,7 +15,7 @@ namespace ConsoleApp1
         
         static void Main(string[] args)
         {
-            createUser("USER", "PW");
+            createUser("someUSER", "P@ssW0rd!");
         }
 
         public static void createUser(string Name, string Pass)
